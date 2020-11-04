@@ -34,8 +34,10 @@ If you haven't got virtualenv installed you can install it by running:
 
     sudo pip3 install virtualenv
 
-Then proceed to create the environment and install the dependencies
+Then you can navigate into the repository directory and proceed to create the environment and install the dependencies
 
+    cd yrtt_entry_katas_python
+    
     virtualenv tech_returners_tasks -p python3
 
     source tech_returners_tasks/bin/activate
@@ -49,6 +51,10 @@ To understand how these functions work, take a look in the corresponding test fi
 To run the tests, run
 
     pytest
+    
+If that command doesn't work, you can also try:
+
+    python3 -m pytest
 
 Work through each test 1 by 1 until you have them all passing. Initially, you'll have a lot of failing tests and a lot of output on the console. To focus on a single test, you can run specific tests such as:
     
