@@ -21,7 +21,7 @@
 # Example
 # wave("hello") => ["Hello", "hEllo", "heLlo", "helLo", "hellO"]
 
-def wave(people):
+def wave(people): #
     length = len(people)
     mex_word = []
     if length != -1:
